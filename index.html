@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Hover effect</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>button hovering</h1>
+    <!-- inline JS -->
+    <!-- the JavaScript is writting in the opening tag of the element -->
+    <!-- <button onclick="alert ('I am a world changer')">Click me</button> -->
+
+    <!-- internal JS -->
+    <!-- the JavaScript is writting in the script tag and linked to the element with the DOM methods -->
+    <!-- <button class="btn">Click here</button>
+    <script>
+      document.querySelectorAll(".btn").forEach((item) => {
+        item.addEventListener("click", () => {
+          alert("I am a booster and a world champion");
+        });
+      });
+    </script> -->
+    <button class="btn">
+      <span class="btn-content">Only Click Me Then See</span>
+    </button>
+
+    <!-- external JS -->
+    <!-- the JavaScript is writting in another file and linked using the src script -->
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
